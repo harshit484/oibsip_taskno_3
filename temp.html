@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+    <title>TEMPERATUR_CONVERSION</title>
+  </head>
+  <body style="background-color:black; -webkit-text-fill-color: aliceblue;" >
+    <u><h1 style="text-align: center;">Temperature Converter</h1></u>
+    <u><H2 style="text-align: center;">THIS IS A SIMPLE WESITE TO CONVERT TEMPERATUR FROM ONE UNIT TO ANOTHER</H2></u>
+
+
+
+    <u><h3 style="-webkit-text-fill-color: aliceblue;">-Enter the temperature to be converted below</h3></u>
+    <label for="temperature"><h3>Enter temperature:</h3></label>
+    <input style="-webkit-text-fill-color: black;" type="text" id="temperature" name="temperature">
+    <br>
+
+
+    <u><h3>-Select the unit from which the temperature is to be converted</h3></u>
+    <label for="unit"><h3>Select unit:</h3></label>
+    <select id="unit" name="unit">
+      <option value="celsius"><b>Celsius</b></option>
+      <option value="fahrenheit"><b>Fahrenheit</b></option>
+      <option value="kelvin"><b>Kelvin</b></option>
+    </select>
+    <br>
+
+
+    
+    <u><h3>-Click on the  convert result to get the result :</h3></u>
+    <button style="-webkit-text-fill-color: black ;" onclick="convert()"><b>Convert</b></button>
+    <br>
+    <p id="result"></p>
+    <script src="script.js"></script>
+  </body>
+</html>
